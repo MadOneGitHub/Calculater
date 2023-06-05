@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 30rem;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background: rgba(0, 0, 0, 0.15);
+  border: 2px solid black;
+  border-radius: 3rem;
+}
+.display {
+  width: 25rem;
+  height: 10rem;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: space-around;
+  align-items: flex-end;
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: beige;
+  padding: 1.5rem;
+  border: 1px solid black;
+  border-radius: 1.5rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.previousOperand {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.currentOperand {
+  padding-top: 1rem;
+}
+.keys {
+  margin-left: 1.5rem;
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  outline: none;
+}
+.logBtn {
+  height: 5rem;
+  width: 5rem;
+  margin: 0.75rem;
+  border: 1px solid rgb(221, 216, 187);
+  border-radius: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.logBtn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.logBtn:focus {
+  background-color: rgba(154, 27, 27, 0.5);
+}
